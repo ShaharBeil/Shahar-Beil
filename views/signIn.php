@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <title>Sign In</title>
     <link href="http://fonts.googleapis.com/css?family=Nunito:400,300" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../css/signIn.css">
-    <link href="../css/nav.css" rel="stylesheet" type="text/css"/>
-    <link href="../css/footer.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="../static/css/signIn.css">
+    <link href="../static/css/nav.css" rel="stylesheet" type="text/css"/>
+    <link href="../static/css/footer.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 </head>
@@ -15,7 +15,7 @@
 
 
 <div class="form-wrap">
-    <form>
+    <form method="POST" action="/searchUser">
         <h1>Sign In</h1>
         <div class="input">
             <input type="email" name="email" value="" placeholder="Email">
@@ -31,7 +31,7 @@
 
     <p>
         Not a member yet?
-        <a href="../html/CreateAccount.php">Create New Account</a>
+        <a href="../views/CreateAccount.php">Create New Account</a>
     </p>
 
 </div>

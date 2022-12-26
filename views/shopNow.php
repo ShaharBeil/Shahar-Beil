@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <title>Shop Now</title>
     <link href="http://fonts.googleapis.com/css?family=Nunito:400,300" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../css/shopnow.css">
-    <link href="../css/nav.css" rel="stylesheet" type="text/css"/>
-    <link href="../css/footer.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="../static/css/shopnow.css">
+    <link href="../static/css/nav.css" rel="stylesheet" type="text/css"/>
+    <link href="../static/css/footer.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 </head>
@@ -46,7 +46,7 @@
       
 
             <div class="item">
-                <img src="../photos/alunk.png" height="150px" width="300px"></a>
+                <img src="../static/photos/alunk.png" height="150px" width="300px"></a>
                 <p>Rescue Stretcher</p>
 
             </div>
@@ -59,7 +59,7 @@
             </div>
 
             <div class="item">
-                <img src="../photos/ambo.jpg" height="150px" width="300px"  ></a>
+                <img src="../static/photos/ambo.jpg" height="150px" width="300px"  ></a>
                 <p>Breath Ambo</p>
          
 
@@ -74,7 +74,7 @@
     
                 <div class="item">
              
-                <img src="../photos/egged.jpg" height="150px" width="300px"></a>
+                <img src="../static/photos/egged.jpg" height="150px" width="300px"></a>
                 <p>Elastic Egged</p>
                
                 </div>
@@ -84,7 +84,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="../photos/burnshield.jpg" height="150px" width="300px"></a>
+                    <img src="../static/photos/burnshield.jpg" height="150px" width="300px"></a>
                     <p>burns bandage</p>
                 </div>
     </div>
