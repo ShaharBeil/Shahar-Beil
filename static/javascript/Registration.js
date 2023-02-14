@@ -13,6 +13,10 @@ function RegVal() {
         alert("Name is too long");
         return false;
     }
+    if (!(name.match(/^[A-Za-z]+$/))){
+        alert("Please use only english letters");
+        return false;
+    }
     if (!email.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)) {
         alert("Email address is not valid");
         return false;

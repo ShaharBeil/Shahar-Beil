@@ -52,8 +52,7 @@ h2{
     width: 100%;
     height: auto;
     max-width: 100%;
-        wrap-option: flex;
-        margin-left: 10px;
+    margin-left: 10px;
 }}
 
 .item{
@@ -63,7 +62,6 @@ h2{
     font-size: 14px;
     text-align: center;
     float: left;
-    wrap-option: flex;
     flex: initial;
 }
 

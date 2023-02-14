@@ -161,7 +161,7 @@ const CreateTableContactUs = () => {
 }
 
 const CreateTableOrders = () => {
-    var query ="CREATE TABLE IF NOT EXISTS web.orders (id int primary key AUTO_INCREMENT,customerId int references users (id) ,orderDate datetime null,shipDate datetime null,status int not null DEFAULT '0'";
+    var query ="CREATE TABLE IF NOT EXISTS web.orders (id int primary key AUTO_INCREMENT,customerId int references users (id) ,orderDate datetime null,shipDate datetime null,status int not null DEFAULT '0')";
     SQL.query(query,(err)=>{
         if (err) {
             console.log("error ", err);

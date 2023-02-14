@@ -14,7 +14,27 @@
 
 
 <body>
-<?php require 'nav.html'; ?>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="shopNow.html">Shop</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+        </ul>
+        
+        <div class="logo">
+            <a href="signIn.html"><img src="/Shahar-Beil/static/icons/profile.png"></a>
+            <a style="padding-left:25px;" href="wishList.html"><img src="/Shahar-Beil/static/icons/wish.png"></a>
+            <a style="padding-left:25px;" href="cart.html"><img src="/Shahar-Beil/static/icons/cart.png"></a>
+        </div>
+        
+        <form class="search-form">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+        
+        </form>
+    
+    </nav>
 
 
 <main>
@@ -92,7 +112,19 @@
 </main>
 
 
-<?php require 'footer.html';?>
+ 
+<div class="footer"> 
+    <div class="copyright">
+        <p> Thermax &copy 2022 </p>
+    </div>
+    <div class="social">
+        <ul>
+            <li><a href="/Shahar-Beil/html/ContactUs.html" class="contact"><i class="far fa-envelope"></i></a></li>
+            <li><a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://www.instagram.com" class="instagram"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </div>
+</div>
 </body>
 
 </html>

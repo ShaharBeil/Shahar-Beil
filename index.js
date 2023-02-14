@@ -30,6 +30,8 @@ app.post('/deleteTables',dbCreateTables.deleteTables);
 
 app.post('/searchUser', CRUD.SearchUser);
 
+app.post('/SearchUserOrders', CRUD.SearchUserOrders);
+
 app.listen(port, ()=>{
     console.log("server is running on port "+port);
 })

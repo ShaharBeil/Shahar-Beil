@@ -126,3 +126,39 @@ body {
     font-weight: 100;
 }
 
+@media screen and (max-width: 470px) {
+    .menu{width: 100% }
+    .menu{height: 40%}
+    .menu {position: static;
+        display: flex;
+        font-size: large;
+    }
+    .search-form{
+        display: none;
+        height: 100px;
+        width: 100px;
+    }
+    .logo {
+        display: -ms-flex;
+        padding: 1px;
+    }
+    .header {
+        width: 2px;
+        padding: 100px;
+    }
+        .main1{
+      background-size: initial;
+            padding-top: 400px;
+            position: static;
+        }
+
+
+
+  
+  
+ 
+    .sidenav{display: none}
+    .footer{height: 10px;
+    overflow: hidden;}
+
+}
